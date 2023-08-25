@@ -1,34 +1,60 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Agarwal":
+  - firstname: ["Shivam"]
+    url: https://shivamag125.github.io/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Wang":
+  - firstname: ["Xuan"]
+    url: https://xuanwang91.github.io/
+  - firstname: ["Zifeng"]
+    url: https://zifengwang.xyz/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Han":
+  - firstname: ["Jiawei"]
+    url: http://hanj.cs.illinois.edu/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Sun": 
+  - firstname: ["Jimeng"]
+    url: https://www.sunlab.org/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Jin":
+  - firstname: ["Bowen"]
+    url: https://peterjin.me/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Yang":
+  - firstname: ["Chaoqi"]
+    url: https://ycq091044.github.io/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Wu":
+  - firstname: ["Zhenbang"]
+    url: https://zzachw.github.io/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Lin":
+  - firstname: ["Zhen"]
+    url: https://zlin7.github.io/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Gao":
+  - firstname: ["Junyi"]
+    url: http://aboutme.vixerunt.org/
+
+"Danek":
+  - firstname: ["Benjamin"]
+    url: https://www.linkedin.com/in/benjaminpdanek/
+
+"Xiao":
+  - firstname: ["Cao"]
+    url: https://sites.google.com/view/danicaxiao/home?pli=1
+
+"Fu":
+  - firstname: ["Tianfan"]
+    url: https://futianfan.github.io/
+
+"Cross":
+  - firstname: ["Adam"]
+    url: https://www2.osfhealthcare.org/providers/adam-cross-1601889
+
+"Tei":
+  - firstname: ["Kenji"]
+    url: https://www.tei-lab.jp/en/professors/
+
+
+
