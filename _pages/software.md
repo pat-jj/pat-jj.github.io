@@ -1,6 +1,8 @@
 ---
 layout: page
 title: software
+nav: true
+nav_order: 2
 ---
 **PyHealth**  <img src="/assets/img/publication_preview/pyhealth-logo.png" alt="PyHealth Logo" class="pyhealth-logo">
 
