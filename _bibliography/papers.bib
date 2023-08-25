@@ -4,6 +4,7 @@
 @misc{jiang2023bilevel,
       abbr={Preprint},
       title={Bi-level Contrastive Learning for Knowledge-Enhanced Molecule Representations}, 
+      abstract={Molecule representation learning underpins diverse downstream applications such as molecular property and side effect understanding and prediction. In this paper, we recognize the two-level structure of individual molecule as having intrinsic graph structure as well as being a node in a large molecule knowledge graph, and present GODE, a new approach that seamlessly integrates graph representations of individual molecules with multi-domain biomedical data from knowledge graphs. By pre-training two graph neural networks (GNNs) on different graph structures, combined with contrastive learning, GODE adeptly fuses molecular structures with their corresponding knowledge graph substructures. This fusion results in a more robust and informative representation, enhancing molecular property prediction by harnessing both chemical and biological information. Finetuned on 11 chemical property tasks, our model surpasses benchmarks, achieving an average ROC-AUC improvement of 14.5%, 9.8%, and 7.3% on BBBP, SIDER, and Tox21 datasets. In regression tasks on ESOL and QM7 datasets, we achieve average improvements of 21.0% and 29.6% improvements in RMSE and MAE, setting a new field benchmark.},
       author={Pengcheng Jiang and Cao Xiao and Tianfan Fu and Jimeng Sun},
       year={2023},
       eprint={2306.01631},
@@ -11,12 +12,26 @@
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       selected={true},
-      preview={gode.png}
+      preview={gode.png},
+      pdf={gode.pdf}
 }
 
 @misc{jiang2023graphcare,
       abbr={Preprint},
       title={GraphCare: Enhancing Healthcare Predictions with Open-World Personalized Knowledge Graphs}, 
+      abstract={Clinical predictive models often rely on patients’ electronic health records (EHR),
+                but integrating medical knowledge to enhance predictions and decision-making is
+                challenging. This is because personalized predictions require personalized knowledge graphs (KGs), which are difficult to generate from patient EHR data. To
+                address this, we propose GraphCare, an open-world framework that leverages
+                external KGs to improve EHR-based predictions. Our method extracts knowledge
+                from large language models (LLMs) and external biomedical KGs to generate
+                patient-specific KGs, which are then used to train our proposed Bi-attention AugmenTed (BAT) graph neural network (GNN) for healthcare predictions. We evaluate GraphCare on two public datasets: MIMIC-III and MIMIC-IV. Our method
+                outperforms baseline models in four vital healthcare prediction tasks: mortality,
+                readmission, length-of-stay, and drug recommendation, improving AUROC on
+                MIMIC-III by average margins of 10.4%, 3.8%, 2.0%, and 1.5%, respectively.
+                Notably, GraphCare demonstrates a substantial edge in scenarios with limited data
+                availability. Our findings highlight the potential of using external KGs in healthcare prediction tasks and demonstrate the promise of GraphCare in generating
+                personalized KGs for promoting personalized medicine.},
       author={Pengcheng Jiang and Cao Xiao and Adam Cross and Jimeng Sun},
       year={2023},
       month = May,
@@ -24,18 +39,46 @@
       archivePrefix={arXiv},
       primaryClass={cs.AI},
       selected={true},
-      preview={graphcare.png}
+      preview={graphcare.png},
+      pdf={graphcare.pdf},
 }
 
 @misc{jiang2023trisum,
       abbr={Preprint},
       title={TriSum: Learning Summarization Ability from Large Language Models}, 
+      abstract={The advent of large language models (LLMs) greatly
+        advanced natural language processing tasks, such as
+        text summarization. However, due to their substantial
+        model size, computational demands, and potential pri-
+        vacy concerns when transmitting sensitive data for re-
+        mote processing, their utility can be limited in resource-
+        constrained environments and applications prioritizing
+        data privacy. To address this, we introduce a frame-
+        work called TriSum to distill the text summarization
+        capabilities of LLMs into a more compact local model.
+        In the first step, we employ LLMs to probe and ex-
+        tract a collection of aspect-triple rationales and sum-
+        maries. We then refine them by employing a dual-
+        scoring method to identify the most high-quality ratio-
+        nales. Moving to the second step, we train a smaller lo-
+        cal model using these carefully organized summariza-
+        tion tasks. Our training strategy employs a curriculum
+        learning approach, gradually progressing from individ-
+        ual tasks to more complex combinations. Our evalua-
+        tions demonstrate that our TriSum method empowers
+        the local model to outperform baselines by 4.5%, 8.5%,
+        and 7.4% for the abstractive summarization task on CN-
+        N/DailyMail, XSum, and ClinicalTrial respectively. Be-
+        yond improved performance, our approach also offers
+        insights into the rationale guiding the summarization
+        process, thus enhancing interpretability.},
       author={Pengcheng Jiang and Cao Xiao and Zifeng Wang and Jimeng Sun and Jiawei Han},
       year={2023},
       month = August,
       primaryClass={cs.AI},
       selected={true},
-      preview={trisum.png}
+      preview={trisum.png},
+      pdf={trisum.pdf},
 }
 
 @inproceedings{10.1145/3580305.3599178,
@@ -56,7 +99,8 @@
   location = {Long Beach, CA, USA},
   series = {KDD '23},
   selected={true},
-  preview={pyhealth-logo.png}
+  preview={pyhealth-logo.png},
+  pdf={pyhealth.pdf},
 }
 
 
@@ -79,7 +123,8 @@
     pages = "11161--11180",
     abstract = "The mission of open knowledge graph (KG) completion is to draw new findings from known facts. Existing works that augment KG completion require either (1) factual triples to enlarge the graph reasoning space or (2) manually designed prompts to extract knowledge from a pre-trained language model (PLM), exhibiting limited performance and requiring expensive efforts from experts. To this end, we propose TagReal that automatically generates quality query prompts and retrieves support information from large text corpora to probe knowledge from PLM for KG completion. The results show that TagReal achieves state-of-the-art performance on two benchmark datasets. We find that TagReal has superb performance even with limited training data, outperforming existing embedding-based, graph-based, and PLM-based methods.",
     selected={true},
-    preview={tagreal.png}
+    preview={tagreal.png},
+    pdf={tagreal.pdf},
 }
 
 @INPROCEEDINGS{9725092,
