@@ -40,6 +40,26 @@ body.sticky-bottom-footer {
   z-index: 1000;    /* This ensures the widget stays on top of other page elements */
 }
 
+.pyhealth-logo {
+  width: 80px;  /* Adjust this value to your desired width */
+  height: 50px; /* Adjust this value to your desired height */
+  margin-left: 10px; /* Space between the logo and the software name */
+  vertical-align: middle; /* Aligns the logo with the software name */
+}
+
+.kgsphere-logo {
+  width: 70px;  /* Adjust this value to your desired width */
+  height: 50px; /* Adjust this value to your desired height */
+  margin-left: 10px; /* Space between the logo and the software name */
+  vertical-align: middle; /* Aligns the logo with the software name */
+}
+
+.software-section {
+  display: flex;
+  align-items: center; /* Vertically centers the logo and software name */
+}
+
+
 // TODO: redefine content layout.
 
 
