@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Patrick Jiang # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Patrick
-middle_name: Pengcheng
+middle_name: (Pengcheng)
 last_name: Jiang
 email: pj20@illinois.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
