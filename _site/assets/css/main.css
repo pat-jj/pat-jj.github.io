@@ -146,13 +146,13 @@ body.sticky-bottom-footer {
 
 /* Hide by default */
 .preview-container {
-  display: none;
+  display: none !important;
 }
 
 /* Show when screen width is greater than 400px */
 @media screen and (min-width: 400px) {
   .preview-container {
-    display: block;
+    display: block !important;
   }
 }
 /******************************************************************************
