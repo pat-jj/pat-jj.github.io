@@ -14,16 +14,28 @@
           {%- endif -%}
 
           {%- if entry.preview -%}
-            {% if entry.preview contains '://' -%}
-            <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-            {%- else -%}
-            {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
-              {% include figure.html
-              path=entry_path
-              class="preview z-depth-1 rounded"
-              zoomable=true
-              alt=entry.preview -%}
-            {%- endif -%}
+            <div id="preview-container">
+              {% if entry.preview contains '://' -%}
+              <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+              {%- else -%}
+              {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
+                {% include figure.html
+                path=entry_path
+                class="preview z-depth-1 rounded"
+                zoomable=true
+                alt=entry.preview -%}
+              {%- endif -%}
+            </div>
+            <script>
+              // Check screen size
+              if (window.innerWidth > 400) {
+                // Show the preview
+                document.getElementById("preview-container").style.display = "block";
+              } else {
+                // Hide the preview
+                document.getElementById("preview-container").style.display = "none";
+              }
+            </script>
           {%- endif -%}
         </div>
 
