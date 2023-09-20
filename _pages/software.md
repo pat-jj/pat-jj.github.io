@@ -32,16 +32,14 @@ data scientists. Upon the time of writing, PyHealth has received
 ---------
 
 
-**KGSphere**  <img src="/assets/img/kgsphere-logo.png" alt="KGSphere Logo" class="kgsphere-logo">
+**TextbookKG (TxBKG)**  <img src="/assets/img/kgsphere-logo.png" alt="KGSphere Logo" class="kgsphere-logo">
 ===
 
 [<span style="background-color:#ffdddd;">https://sunlabuiuc.github.io/TextbookKG/</span>](https://sunlabuiuc.github.io/TextbookKG/)
 
 > - <span style="text-decoration:underline;">Construct Knowledge Graph for Any PDFs!</span>
 
-In today's digital era, efficiently extracting structured knowledge from raw text is more crucial than ever. KGSphere rises to this challenge, leveraging the capabilities of Large Language Models (LLM) to derive Knowledge Graphs (KG) from unstructured content. One of KGSphere's standout features is its adaptability: users can craft their own prompts, directing the LLM to extract KGs tailored to their unique needs. Beyond extraction, the platform's intuitive interface empowers users to modify the resulting KGs, ensuring the data aligns perfectly with their objectives. An added advantage is KGSphere's support for Optical Character Recognition (OCR) from PDF files, transforming static documents into dynamic, structured knowledge. Furthermore, KGSphere prioritizes user convenience; individuals can save their customized grouped prompts, texts, and extracted KGs using their Google account, ensuring their tailored configurations and data are always within reach. Dive deep into the realm of structured data extraction with KGSphere.
-
-(The name of the link will be changed from "TextbookKG" to "KGSphere" soon.)
+In today's digital era, efficiently extracting structured knowledge from raw text is more crucial than ever. TxBKG rises to this challenge, leveraging the capabilities of Large Language Models (LLM) to derive Knowledge Graphs (KG) from unstructured content. One of TxBKG's standout features is its adaptability: users can craft their own prompts, directing the LLM to extract KGs tailored to their unique needs. Beyond extraction, the platform's intuitive interface empowers users to modify the resulting KGs, ensuring the data aligns perfectly with their objectives. An added advantage is TxBKG's support for Optical Character Recognition (OCR) from PDF files, transforming static documents into dynamic, structured knowledge. Furthermore, TxBKG prioritizes user convenience; individuals can save their customized grouped prompts, texts, and extracted KGs using their Google account, ensuring their tailored configurations and data are always within reach. Dive deep into the realm of structured data extraction with TxBKG.
 
 
 ---------
