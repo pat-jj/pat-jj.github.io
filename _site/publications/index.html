@@ -146,68 +146,6 @@
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 220px)" srcset="/assets/img/publication_preview/gode-220.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/gode-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/gode-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/gode-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/gode.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="gode.png" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-</div>
-</div>
-
-
-        <!-- Entry bib key -->
-        <div id="jiang2023bilevel" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Bi-level Contrastive Learning for Knowledge-Enhanced Molecule Representations</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <strong><ins style="color:rgb(181, 50, 251); font-weight: bold;">Pengcheng Jiang</ins></strong>, <a href="https://sites.google.com/view/danicaxiao/home?pli=1" rel="external nofollow noopener" target="_blank">Cao Xiao</a>, <a href="https://futianfan.github.io/" rel="external nofollow noopener" target="_blank">Tianfan Fu</a>, and <a href="https://www.sunlab.org/" rel="external nofollow noopener" target="_blank">Jimeng Sun</a>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          Jun 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="/assets/pdf/gode.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/pat-jj/Gode" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-          </div>
-          
-          <div class="badges">
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Molecule representation learning underpins diverse downstream applications such as molecular property and side effect understanding and prediction. In this paper, we recognize the two-level structure of individual molecule as having intrinsic graph structure as well as being a node in a large molecule knowledge graph, and present GODE, a new approach that seamlessly integrates graph representations of individual molecules with multi-domain biomedical data from knowledge graphs. By pre-training two graph neural networks (GNNs) on different graph structures, combined with contrastive learning, GODE adeptly fuses molecular structures with their corresponding knowledge graph substructures. This fusion results in a more robust and informative representation, enhancing molecular property prediction by harnessing both chemical and biological information. Finetuned on 11 chemical property tasks, our model surpasses benchmarks, achieving an average ROC-AUC improvement of 14.5%, 9.8%, and 7.3% on BBBP, SIDER, and Tox21 datasets. In regression tasks on ESOL and QM7 datasets, we achieve average improvements of 21.0% and 29.6% improvements in RMSE and MAE, setting a new field benchmark.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr">
-<abbr class="badge">Preprint</abbr><div class="preview-container">
-              <figure>
-
-  <picture>
-    
     <source class="responsive-img-srcset" media="(max-width: 220px)" srcset="/assets/img/publication_preview/graphcare-220.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/graphcare-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/graphcare-800.webp"></source>
@@ -238,7 +176,7 @@
         
         
         <div class="periodical">
-          May 2023
+          2023
         </div>
         <div class="periodical">
           
@@ -248,7 +186,8 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="/assets/pdf/graphcare.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/pat-jj/GraphCare" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          <a href="https://github.com/pat-jj/GraphCare" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+              <span id="star-count-jiang2023graphcare" class="github-stars"></span>
           </div>
           
           <div class="badges">
@@ -272,6 +211,144 @@
           </div>
         </div>
       </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Define repositories and corresponding entry keys
+        const repositories = {
+            'jiang2023graphcare': 'pat-jj/GraphCare',
+            '10.1145/3580305.3599178': 'sunlabuiuc/PyHealth',
+            'jiang-etal-2023-text': 'pat-jj/TagReal',
+            // Add more entries as needed
+        };
+    
+        // Fetch and display stars for each repository
+        Object.keys(repositories).forEach(async (key) => {
+            const repo = repositories[key];
+            const stars = await getGitHubStars(repo);
+            document.getElementById(`star-count-${key}`).innerText = `⭐️ ${stars} stars`;
+        });
+    });
+    
+      async function getGitHubStars(repo) {
+          const response = await fetch(`https://api.github.com/repos/${repo}`);
+          const data = await response.json();
+          return data.stargazers_count;
+      }
+      
+    </script>
+
+    <style>
+      .github-stars {
+          background-color: #f68e52;
+          padding: 3.5px;
+          color: rgb(20, 0, 34);
+          border-radius: 5px;
+          margin-left: -10px;
+          margin-top: 3px;
+      }
+    </style>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr">
+<abbr class="badge">Preprint</abbr><div class="preview-container">
+              <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 220px)" srcset="/assets/img/publication_preview/gode-220.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/gode-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/gode-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/gode-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/gode.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="gode.png" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+</div>
+</div>
+
+
+        <!-- Entry bib key -->
+        <div id="jiang2023bilevel" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Bi-level Contrastive Learning for Knowledge-Enhanced Molecule Representations</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong><ins style="color:rgb(181, 50, 251); font-weight: bold;">Pengcheng Jiang</ins></strong>, <a href="https://sites.google.com/view/danicaxiao/home?pli=1" rel="external nofollow noopener" target="_blank">Cao Xiao</a>, <a href="https://futianfan.github.io/" rel="external nofollow noopener" target="_blank">Tianfan Fu</a>, and <a href="https://www.sunlab.org/" rel="external nofollow noopener" target="_blank">Jimeng Sun</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/gode.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="https://github.com/pat-jj/Gode" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Molecule representation learning underpins diverse downstream applications such as molecular property and side effect understanding and prediction. In this paper, we recognize the two-level structure of individual molecule as having intrinsic graph structure as well as being a node in a large molecule knowledge graph, and present GODE, a new approach that seamlessly integrates graph representations of individual molecules with multi-domain biomedical data from knowledge graphs. By pre-training two graph neural networks (GNNs) on different graph structures, combined with contrastive learning, GODE adeptly fuses molecular structures with their corresponding knowledge graph substructures. This fusion results in a more robust and informative representation, enhancing molecular property prediction by harnessing both chemical and biological information. Finetuned on 11 chemical property tasks, our model surpasses benchmarks, achieving an average ROC-AUC improvement of 14.5%, 9.8%, and 7.3% on BBBP, SIDER, and Tox21 datasets. In regression tasks on ESOL and QM7 datasets, we achieve average improvements of 21.0% and 29.6% improvements in RMSE and MAE, setting a new field benchmark.</p>
+          </div>
+        </div>
+      </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Define repositories and corresponding entry keys
+        const repositories = {
+            'jiang2023graphcare': 'pat-jj/GraphCare',
+            '10.1145/3580305.3599178': 'sunlabuiuc/PyHealth',
+            'jiang-etal-2023-text': 'pat-jj/TagReal',
+            // Add more entries as needed
+        };
+    
+        // Fetch and display stars for each repository
+        Object.keys(repositories).forEach(async (key) => {
+            const repo = repositories[key];
+            const stars = await getGitHubStars(repo);
+            document.getElementById(`star-count-${key}`).innerText = `⭐️ ${stars} stars`;
+        });
+    });
+    
+      async function getGitHubStars(repo) {
+          const response = await fetch(`https://api.github.com/repos/${repo}`);
+          const data = await response.json();
+          return data.stargazers_count;
+      }
+      
+    </script>
+
+    <style>
+      .github-stars {
+          background-color: #f68e52;
+          padding: 3.5px;
+          color: rgb(20, 0, 34);
+          border-radius: 5px;
+          margin-left: -10px;
+          margin-top: 3px;
+      }
+    </style>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -312,7 +389,7 @@
         
         
         <div class="periodical">
-          Aug 2023
+          2023
         </div>
         <div class="periodical">
           
@@ -322,7 +399,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="/assets/pdf/trisum.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/pat-jj/TriSum" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          <a href="https://github.com/pat-jj/TriSum" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
           <div class="badges">
@@ -359,6 +436,44 @@
           </div>
         </div>
       </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Define repositories and corresponding entry keys
+        const repositories = {
+            'jiang2023graphcare': 'pat-jj/GraphCare',
+            '10.1145/3580305.3599178': 'sunlabuiuc/PyHealth',
+            'jiang-etal-2023-text': 'pat-jj/TagReal',
+            // Add more entries as needed
+        };
+    
+        // Fetch and display stars for each repository
+        Object.keys(repositories).forEach(async (key) => {
+            const repo = repositories[key];
+            const stars = await getGitHubStars(repo);
+            document.getElementById(`star-count-${key}`).innerText = `⭐️ ${stars} stars`;
+        });
+    });
+    
+      async function getGitHubStars(repo) {
+          const response = await fetch(`https://api.github.com/repos/${repo}`);
+          const data = await response.json();
+          return data.stargazers_count;
+      }
+      
+    </script>
+
+    <style>
+      .github-stars {
+          background-color: #f68e52;
+          padding: 3.5px;
+          color: rgb(20, 0, 34);
+          border-radius: 5px;
+          margin-left: -10px;
+          margin-top: 3px;
+      }
+    </style>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -399,7 +514,7 @@
         
         
         <div class="periodical">
-          <em>In Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em>, Aug 2023
+          <em>In Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em>, 2023
         </div>
         <div class="periodical">
           
@@ -409,7 +524,8 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="/assets/pdf/pyhealth.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/sunlabuiuc/PyHealth" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          <a href="https://github.com/sunlabuiuc/PyHealth" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+              <span id="star-count-10.1145/3580305.3599178" class="github-stars"></span>
           </div>
           
           <div class="badges">
@@ -421,6 +537,44 @@
           </div>
         </div>
       </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Define repositories and corresponding entry keys
+        const repositories = {
+            'jiang2023graphcare': 'pat-jj/GraphCare',
+            '10.1145/3580305.3599178': 'sunlabuiuc/PyHealth',
+            'jiang-etal-2023-text': 'pat-jj/TagReal',
+            // Add more entries as needed
+        };
+    
+        // Fetch and display stars for each repository
+        Object.keys(repositories).forEach(async (key) => {
+            const repo = repositories[key];
+            const stars = await getGitHubStars(repo);
+            document.getElementById(`star-count-${key}`).innerText = `⭐️ ${stars} stars`;
+        });
+    });
+    
+      async function getGitHubStars(repo) {
+          const response = await fetch(`https://api.github.com/repos/${repo}`);
+          const data = await response.json();
+          return data.stargazers_count;
+      }
+      
+    </script>
+
+    <style>
+      .github-stars {
+          background-color: #f68e52;
+          padding: 3.5px;
+          color: rgb(20, 0, 34);
+          border-radius: 5px;
+          margin-left: -10px;
+          margin-top: 3px;
+      }
+    </style>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -471,8 +625,9 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="/assets/pdf/tagreal.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/pat-jj/TagReal" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-            <a href="/assets/pdf/tagreal_slides.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="/assets/pdf/tagreal_slides.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="https://github.com/pat-jj/TagReal" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+              <span id="star-count-jiang-etal-2023-text" class="github-stars"></span>
           </div>
           
           <div class="badges">
@@ -484,6 +639,44 @@
           </div>
         </div>
       </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Define repositories and corresponding entry keys
+        const repositories = {
+            'jiang2023graphcare': 'pat-jj/GraphCare',
+            '10.1145/3580305.3599178': 'sunlabuiuc/PyHealth',
+            'jiang-etal-2023-text': 'pat-jj/TagReal',
+            // Add more entries as needed
+        };
+    
+        // Fetch and display stars for each repository
+        Object.keys(repositories).forEach(async (key) => {
+            const repo = repositories[key];
+            const stars = await getGitHubStars(repo);
+            document.getElementById(`star-count-${key}`).innerText = `⭐️ ${stars} stars`;
+        });
+    });
+    
+      async function getGitHubStars(repo) {
+          const response = await fetch(`https://api.github.com/repos/${repo}`);
+          const data = await response.json();
+          return data.stargazers_count;
+      }
+      
+    </script>
+
+    <style>
+      .github-stars {
+          background-color: #f68e52;
+          padding: 3.5px;
+          color: rgb(20, 0, 34);
+          border-radius: 5px;
+          margin-left: -10px;
+          margin-top: 3px;
+      }
+    </style>
 </li>
 </ol>
 <h2 class="bibliography">2021</h2>
@@ -537,7 +730,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="/assets/pdf/skin_vision.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/pat-jj/skin_cancer_vision" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          <a href="https://github.com/pat-jj/skin_cancer_vision" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
           <div class="badges">
@@ -549,6 +742,44 @@
           </div>
         </div>
       </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Define repositories and corresponding entry keys
+        const repositories = {
+            'jiang2023graphcare': 'pat-jj/GraphCare',
+            '10.1145/3580305.3599178': 'sunlabuiuc/PyHealth',
+            'jiang-etal-2023-text': 'pat-jj/TagReal',
+            // Add more entries as needed
+        };
+    
+        // Fetch and display stars for each repository
+        Object.keys(repositories).forEach(async (key) => {
+            const repo = repositories[key];
+            const stars = await getGitHubStars(repo);
+            document.getElementById(`star-count-${key}`).innerText = `⭐️ ${stars} stars`;
+        });
+    });
+    
+      async function getGitHubStars(repo) {
+          const response = await fetch(`https://api.github.com/repos/${repo}`);
+          const data = await response.json();
+          return data.stargazers_count;
+      }
+      
+    </script>
+
+    <style>
+      .github-stars {
+          background-color: #f68e52;
+          padding: 3.5px;
+          color: rgb(20, 0, 34);
+          border-radius: 5px;
+          margin-left: -10px;
+          margin-top: 3px;
+      }
+    </style>
 </li>
 <li>
 <!-- _layouts/bib.html -->
@@ -599,8 +830,8 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="/assets/pdf/oacal.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/pat-jj/OACAL" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-            <a href="/assets/pdf/oacal_slides.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="/assets/pdf/oacal_slides.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="https://github.com/pat-jj/OACAL" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
           <div class="badges">
@@ -630,6 +861,44 @@
           </div>
         </div>
       </div>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Define repositories and corresponding entry keys
+        const repositories = {
+            'jiang2023graphcare': 'pat-jj/GraphCare',
+            '10.1145/3580305.3599178': 'sunlabuiuc/PyHealth',
+            'jiang-etal-2023-text': 'pat-jj/TagReal',
+            // Add more entries as needed
+        };
+    
+        // Fetch and display stars for each repository
+        Object.keys(repositories).forEach(async (key) => {
+            const repo = repositories[key];
+            const stars = await getGitHubStars(repo);
+            document.getElementById(`star-count-${key}`).innerText = `⭐️ ${stars} stars`;
+        });
+    });
+    
+      async function getGitHubStars(repo) {
+          const response = await fetch(`https://api.github.com/repos/${repo}`);
+          const data = await response.json();
+          return data.stargazers_count;
+      }
+      
+    </script>
+
+    <style>
+      .github-stars {
+          background-color: #f68e52;
+          padding: 3.5px;
+          color: rgb(20, 0, 34);
+          border-radius: 5px;
+          margin-left: -10px;
+          margin-top: 3px;
+      }
+    </style>
 </li>
 </ol>
 
