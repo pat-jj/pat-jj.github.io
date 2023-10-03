@@ -58,9 +58,53 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2 style="margin-top: 80px;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
+              <h2 style="margin-top: 80px;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
+              {%- include selected_papers.html %}
+          {% endif %}
+
+          <!-- Software -->
+          <h2 style="margin-top: 80px; border-bottom: 1px solid rgb(222, 222, 222); padding-bottom: 30px;"><a href="/software/" style="color: inherit;">Selected Software</a></h2>
+
+          <!-- Badges under PyHealth -->
+          <p><h5><a href="https://pyhealth.readthedocs.io/en/latest/" style="background-color:#f8fdfb;">PyHealth</a> - The "HF-Transformer Pipeline" for Healthcare</h5></p>
+          <!-- <div class="software-section">
+            <img src="/assets/img/publication_preview/pyhealth-logo.png" alt="PyHealth Logo" class="pyhealth-logo">
+          </div> -->
+          <div class="software_icons">
+              <a href="https://pypi.org/project/pyhealth/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/pypi/v/pyhealth.svg?color=brightgreen" alt="PyPI version">
+              </a>
+              <a href="https://pyhealth.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">
+                  <img src="https://readthedocs.org/projects/pyhealth/badge/?version=latest" alt="Documentation status">
+              </a>
+              <a href="https://github.com/sunlabuiuc/pyhealth/stargazers" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.shields.io/github/stars/sunlabuiuc/pyhealth.svg" alt="GitHub stars">
+              </a>
+              <a href="https://github.com/sunlabuiuc/pyhealth/network" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.shields.io/github/forks/sunlabuiuc/pyhealth.svg?color=blue" alt="GitHub forks">
+              </a>
+              <a href="https://pepy.tech/project/pyhealth" target="_blank" rel="noopener noreferrer">
+                  <img src="https://pepy.tech/badge/pyhealth" alt="Downloads">
+              </a>
+              <a href="https://pyhealth.readthedocs.io/en/latest/tutorials.html" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.shields.io/badge/Tutorials-Google%20Colab-red" alt="Tutorials">
+              </a>
+          </div>
+          <p>Main Developers: Chaoqi Yang, Zhenbang Wu, Patrick Jiang</p>
+
+          <p><h5><a href="https://sunlabuiuc.github.io/TextbookKG/" style="background-color:#f8fdfb;">TxBKG</a> - Convert Any PDFs into Interactive Knowledge Graphs!</h5></p>
+          <!-- <div class="software-section">
+            <img src="/assets/img/kgsphere-logo.png" alt="KGSphere Logo" class="kgsphere-logo">
+          </div> -->
+          <div class="software_icons">
+              <a href="https://github.com/sunlabuiuc/TextbookKG/stargazers" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.shields.io/github/stars/sunlabuiuc/TextbookKG.svg" alt="GitHub stars">
+              </a>
+              <a href="https://github.com/sunlabuiuc/TextbookKG/network" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.shields.io/github/forks/sunlabuiuc/TextbookKG?color=blue" alt="GitHub forks">
+              </a>
+          </div>
+          <p>Developer: Patrick Jiang</p>
 
           <!-- Social -->
           {%- if page.social %}
