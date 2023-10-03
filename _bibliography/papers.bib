@@ -2,20 +2,25 @@
 ---
 @misc{jiang2023graphcare,
       abbr={Preprint},
-      title={GraphCare: Enhancing Healthcare Predictions with Open-World Personalized Knowledge Graphs}, 
-      abstract={Clinical predictive models often rely on patients’ electronic health records (EHR),
+      title={GraphCare: Enhancing Healthcare Predictions with Personalized Knowledge Graphs}, 
+      abstract={Clinical predictive models often rely on patients' electronic health records (EHR),
                 but integrating medical knowledge to enhance predictions and decision-making is
-                challenging. This is because personalized predictions require personalized knowledge graphs (KGs), which are difficult to generate from patient EHR data. To
-                address this, we propose GraphCare, an open-world framework that leverages
-                external KGs to improve EHR-based predictions. Our method extracts knowledge
-                from large language models (LLMs) and external biomedical KGs to generate
-                patient-specific KGs, which are then used to train our proposed Bi-attention AugmenTed (BAT) graph neural network (GNN) for healthcare predictions. We evaluate GraphCare on two public datasets: MIMIC-III and MIMIC-IV. Our method
-                outperforms baseline models in four vital healthcare prediction tasks: mortality,
-                readmission, length-of-stay, and drug recommendation, improving AUROC on
-                MIMIC-III by average margins of 10.4%, 3.8%, 2.0%, and 1.5%, respectively.
-                Notably, GraphCare demonstrates a substantial edge in scenarios with limited data
-                availability. Our findings highlight the potential of using external KGs in healthcare prediction tasks and demonstrate the promise of GraphCare in generating
-                personalized KGs for promoting personalized medicine.},
+                challenging. This is because personalized predictions require personalized knowledge
+                graphs (KGs), which are difficult to generate from patient EHR data. To
+                address this, we propose GRAPHCARE, an open-world framework that uses external
+                KGs to improve EHR-based predictions. Our method extracts knowledge
+                from large language models (LLMs) and external biomedical KGs to build patientspecific
+                KGs, which are then used to train our proposed Bi-attention AugmenTed
+                (BAT) graph neural network (GNN) for healthcare predictions. On two public
+                datasets, MIMIC-III and MIMIC-IV, GRAPHCARE surpasses baselines in four vital
+                healthcare prediction tasks: mortality, readmission, length of stay (LOS), and
+                drug recommendation. On MIMIC-III, it boosts AUROC by 17.6% and 6.6% for
+                mortality and readmission, and F1-score by 7.9% and 10.8% for LOS and drug
+                recommendation, respectively. Notably, GRAPHCARE demonstrates a substantial
+                edge in scenarios with limited data availability. Our findings highlight the potential
+                of using external KGs in healthcare prediction tasks and demonstrate the
+                promise of GRAPHCARE in generating personalized KGs for promoting personalized
+                medicine.},
       author={Pengcheng Jiang and Cao Xiao and Adam Cross and Jimeng Sun},
       year={2023},
       eprint={2305.12788},
