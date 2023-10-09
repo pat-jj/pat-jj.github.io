@@ -30,6 +30,7 @@ My current research is centered around two main pillars:
   - Condensing knowledge through summarization
   - Probing knowledge from language models
   
+  
 - **Application of Structured Knowledge to Science Domain:** 
   - Boosting EHR-based healthcare predictions 
   - Enhancing molecule representations for drug discovery
