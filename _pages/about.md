@@ -31,8 +31,8 @@ My current research is centered around two main pillars:
   - Probing knowledge from language models
   
 - **Application of Structured Knowledge to Science Domain:** 
-  - Enhancing healthcare prediction models
-  - Accelerating the drug discovery process
+  - Boosting EHR-based healthcare predictions 
+  - Enhancing molecule representations for drug discovery
 
 
 
