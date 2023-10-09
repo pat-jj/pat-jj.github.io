@@ -35,7 +35,7 @@ data scientists. Upon the time of writing, PyHealth has received
 **TextbookKG (TxBKG)**  <img src="/assets/img/kgsphere-logo.png" alt="KGSphere Logo" class="kgsphere-logo">
 ===
 
-[<span style="background-color:#ffdddd;">https://sunlabuiuc.github.io/TextbookKG/</span>](https://sunlabuiuc.github.io/TextbookKG/)
+[<span style="background-color:#ffdddd;">https://pat-jj.github.io/TextbookKG/</span>](https://pat-jj.github.io/TextbookKG/)
 
 > - <span style="text-decoration:underline;">Construct Knowledge Graph for Any PDFs!</span>
 
