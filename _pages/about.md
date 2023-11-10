@@ -26,14 +26,15 @@ Prior to my studies at UIUC, I earned my B.E. in Computer Science and Engineerin
 
 My current research is centered around two main pillars:
 
-- **Structured Knowledge Discovery through Text Mining:** 
-  - Condensing knowledge through summarization
-  - Probing knowledge from language models
+- **Actionable Knowledge Extraction:** 
+  - Mining prompts for knowledge extraction
+  - Knowledge-condensing text summarization
+  - Evaluating generative knowledge extraction
   
   
-- **Application of Structured Knowledge to Science Domain:** 
-  - Boosting EHR-based healthcare predictions 
-  - Enhancing molecule representations for drug discovery
+- **Knowledge-enhanced AI4Healthcare:** 
+  - Boosting EHR-based healthcare predictions with KGs
+  - Enhancing molecule representations for drug discovery with KGs
 
 
 
