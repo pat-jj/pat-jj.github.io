@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 Hello and welcome! I'm Patrick (Pengcheng), currently a graduate student in the Computer Science Department at the University of Illinois Urbana-Champaign (UIUC). 
 
-I am privileged to be mentored by [Prof. Jimeng Sun](https://www.sunlab.org/), whose insights have been pivotal in shaping my research at the intersection of AI and Healthcare. I am also glad to have been working with [Prof. Jiawei Han](http://hanj.cs.illinois.edu/) for text mining related research, with a special focus on pre-trained language models and knowledge graphs.
+I am privileged to be mentored by [Prof. Jimeng Sun](https://www.sunlab.org/), whose insights have been pivotal in shaping my research at the intersection of AI and Healthcare. I am also glad to be advised by [Prof. Jiawei Han](http://hanj.cs.illinois.edu/) for text mining related research, with a special focus on pre-trained language models and knowledge graphs.
 
 #### Academic Journey
 
