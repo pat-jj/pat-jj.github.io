@@ -1,6 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
+{% if entry.show %}
       <div class="row">
         <div class="col-sm-2 {% if entry.preview %}abbr{% else %}abbr{% endif %}">
           {%- if site.data.venues[entry.abbr] -%}
@@ -28,7 +29,6 @@
             </div>
           {%- endif -%}
         </div>
-
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
@@ -281,3 +281,4 @@
           margin-top: 3px;
       }
     </style>
+  {% endif %}
