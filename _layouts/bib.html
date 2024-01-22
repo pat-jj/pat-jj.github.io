@@ -67,7 +67,7 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-          <strong><ins style="color:rgb(181, 50, 251); font-weight: bold;">{{author.first}} {{author.last}}</ins></strong>
+          <strong><ins style="color:rgb(6, 130, 213); font-weight: bold;">{{author.first}} {{author.last}}</ins></strong>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -273,12 +273,12 @@
 
     <style>
       .github-stars {
-          background-color: #f68e52;
+          background-color: #ddeceb;
           padding: 3.0px;
-          color: rgb(20, 0, 34);
+          color: rgb(0, 0, 0);
           border-radius: 5px;
-          margin-left: -10px;
-          margin-top: 3px;
+          margin-left: -8px;
+          height: auto;
       }
     </style>
   {% endif %}
