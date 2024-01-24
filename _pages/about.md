@@ -20,21 +20,23 @@ I am privileged to be mentored by [Prof. Jimeng Sun](https://www.sunlab.org/), w
 
 #### Academic Journey
 
-Prior to my studies at UIUC, I earned my B.E. in Computer Science and Engineering from Waseda University in Tokyo, Japan. In this chapter of my academic journey, I was fortunate to be co-supervised by [Prof. Kenji Tei](https://www.tei-lab.jp/en/professors/) and [Prof. Shinichi Honiden](https://www.nii.ac.jp/en/faculty/architecture/honiden_shinichi/). After Waseda and before UIUC, I dedicated a year to sharpen my practical skills as a full-time AI Engineer at Ant Group.
+Prior to my studies at UIUC, I earned my B.E. in Computer Science and Engineering from Waseda University in Tokyo, Japan. In this chapter of my academic journey, I was fortunate to be co-supervised by [Prof. Kenji Tei](https://www.tei-lab.jp/en/professors/) and [Prof. Shinichi Honiden](https://www.nii.ac.jp/en/faculty/architecture/honiden_shinichi/). After Waseda and before UIUC, I dedicated a year in industry.
 
 #### Research Interests
 
-My current research is centered around two main pillars:
+ have a wide array of research interests that span across various domains of NLP and AI4Science.
+
+My past research mainly focused on:
 
 - **Actionable Knowledge Extraction:** 
-  - Mining prompts for knowledge extraction
-  - Knowledge-condensing text summarization
-  - Evaluating generative knowledge extraction
+  - Prompt mining
+  - Text summarization
+  - Evaluation
   
   
-- **Knowledge-enhanced AI4Healthcare:** 
-  - Boosting EHR-based healthcare predictions with KGs
-  - Enhancing molecule representations for drug discovery with KGs
+- **Knowledge-Enhanced AI4Science:** 
+  - Enhancing clinical predictions with KGs
+  - Enhancing molecule representations with KGs
 
 
 
