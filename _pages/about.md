@@ -39,7 +39,7 @@ My past research mainly focused on:
   - Enhancing molecule representations with KGs
 
 
-Recently, I'm working on **generative prompt mining** with LLMs.
+Recently, I've been working on **generative prompt mining** with LLMs.
 
 
 
