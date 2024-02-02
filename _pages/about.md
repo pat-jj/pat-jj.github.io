@@ -24,7 +24,7 @@ Prior to my studies at UIUC, I earned my B.E. in Computer Science and Engineerin
 
 #### Research Interests
 
-I have a wide array of research interests that span across various domains of NLP and AI4Health.
+I have a wide array of research interests that span across various domains.
 
 My past research mainly focused on:
 
