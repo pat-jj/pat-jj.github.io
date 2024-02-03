@@ -29,17 +29,14 @@ I have a wide array of research interests that span across various domains.
 My past research mainly focused on:
 
 - **Actionable Knowledge Extraction:** 
-  - Prompt mining
-  - Text summarization
-  - Evaluation
-  
+  - How to extract knowledge from unstructured data more efficiently and effectively?
+  - How to evaluate the quality of extracted knowledge?
   
 - **Knowledge-Enhanced AI4Health:** 
-  - Enhancing clinical predictions with KGs
-  - Enhancing molecule representations with KGs
+  - Using KGs to improve clinical predictions.
+  - Using KGs to enhance molecule representation.
 
 
-Recently, I've been working on **generative prompt mining** with LLMs.
 
 
 
