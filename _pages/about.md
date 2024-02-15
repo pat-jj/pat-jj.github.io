@@ -28,7 +28,7 @@ I have a wide array of research interests that span across various domains.
 
 My past research mainly focused on:
 
-- **Actionable Knowledge Extraction:** 
+- **Knowledge Extraction:** 
   - How to extract knowledge from unstructured data more efficiently and effectively?
   - How to evaluate the quality of extracted knowledge?
   
