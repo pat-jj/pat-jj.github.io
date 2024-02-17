@@ -19,7 +19,7 @@ I am fortunate to be advised by [Prof. Jimeng Sun](https://www.sunlab.org/), who
 
 I am also privileged to be advised by [Prof. Jiawei Han](http://hanj.cs.illinois.edu/) for text mining related research, with a special focus on pre-trained language model and knowledge graph (KG).
 
-Prior to my studies at UIUC, I earned my B.E. in Computer Science and Engineering from Waseda University in Tokyo, Japan. In this chapter of my academic journey, I was fortunate to be co-advised by [Prof. Kenji Tei](https://www.tei-lab.jp/en/professors/) and [Prof. Shinichi Honiden](https://www.nii.ac.jp/en/faculty/architecture/honiden_shinichi/), focusing on formal methods. After Waseda and before UIUC, I dedicated a year in industry.
+Prior to my studies at UIUC, I earned my B.E. in Computer Science and Engineering from Waseda University in Tokyo, Japan. In this chapter of my academic journey, I was fortunate to be co-advised by [Prof. Kenji Tei](https://www.tei-lab.jp/en/professors/) and [Prof. Shinichi Honiden](https://www.nii.ac.jp/en/faculty/architecture/honiden_shinichi/), focusing on formal methods. After Waseda and before UIUC, I dedicated a year in industry as a software engineer.
 
 I have a wide array of research interests that span across various domains.
 
