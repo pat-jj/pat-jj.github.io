@@ -34,7 +34,8 @@ My recent research is mainly about:
   - Using KGs to enhance molecule representation.
 
 ```R
-I am open to discussions on any promising research topics. Feel free to reach out: pj20[at]illinois[dot]edu
+I am open to discussions on any promising research topics, especially those related to drug discovery.
+Feel free to reach out: pj20[at]illinois[dot]edu
 ```
 
 
