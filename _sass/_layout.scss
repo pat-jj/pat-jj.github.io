@@ -34,13 +34,13 @@ body.sticky-bottom-footer {
 }
 
 #clustrmaps-container {
-  position: fixed;
-  bottom: 50px;     /* This positions the widget 10px from the bottom of the page */
+  padding-bottom: -20px;
   left: auto;   /* This positions the widget 10px from the right side of the page */
-  right: 10px;
+  padding-top: 0px;
+  padding-right: 0%;
   z-index: 1000;    /* This ensures the widget stays on top of other page elements */
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 .pyhealth-logo {
