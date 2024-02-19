@@ -119,10 +119,13 @@ body.sticky-bottom-footer {
 }
 
 #clustrmaps-container {
-  position: fixed; /* This will keep the widget fixed in the position even when scrolling */
+  position: fixed;
   bottom: 50px; /* This positions the widget 10px from the bottom of the page */
-  right: 10px; /* This positions the widget 10px from the right side of the page */
+  left: auto; /* This positions the widget 10px from the right side of the page */
+  right: 10px;
   z-index: 1000; /* This ensures the widget stays on top of other page elements */
+  height: 50px;
+  width: 50px;
 }
 
 .pyhealth-logo {
